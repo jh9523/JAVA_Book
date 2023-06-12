@@ -10,7 +10,7 @@ import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class TcpServer {
+public class TcpServer_ {
 	public void testTcpServer(int port) {
 		ServerSocket ss = null;
 		Socket sc = null;
@@ -30,6 +30,7 @@ public class TcpServer {
 				sc = ss.accept();
 				System.out.println("클라이언트 접속됨: "+sc.getLocalPort());
 				System.out.println("클라이언트 접속됨: "+sc.getPort());
+				System.out.println("클라이언트 접속됨: "+sc.getInetAddress().toString());
 				
 				
 				// 5. 연결된 클라이언트와 입출력 스트림 생성

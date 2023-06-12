@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class TcpClient {
+public class TcpClient_ {
 	public void testTcpClient(String ip, int port) {
 		
 		Socket socket = null;

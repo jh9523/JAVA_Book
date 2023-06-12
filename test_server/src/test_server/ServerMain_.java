@@ -1,7 +1,7 @@
 package test_server;
 
-public class ServerMain {
+public class ServerMain_ {
 	public static void main(String[] args) {
-		new TcpServer().testTcpServer(9003);
+		new TcpServer_().testTcpServer(9003);
 	}
 }
